@@ -68,13 +68,13 @@ button.addEventListener('click', function() {
         // Запускаем
         button.classList.remove('button_start');
         button.classList.add('button_stop');
-        image.src = '../images/knopka_stop.png';
+        image.src = './images/knopka_stop.png';
         startTrafficLight();
     }else {
         // Останавливаем
         button.classList.remove('button_stop');
         button.classList.add('button_start');
-        image.src = '../images/knopka_start.png';
+        image.src = './images/knopka_start.png';
         stopTrafficLight();
     };
 });
